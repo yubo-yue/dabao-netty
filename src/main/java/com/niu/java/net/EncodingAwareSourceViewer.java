@@ -29,7 +29,7 @@ public class EncodingAwareSourceViewer {
                 Reader r = new InputStreamReader(in, encoding);
                 int c;
                 while ((c = r.read()) != -1) {
-                    System.out.println((char) c);
+                    System.out.print((char) c);
                 }
 
                 r.close();
